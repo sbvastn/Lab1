@@ -35,3 +35,9 @@ exercises.c:51:9: error: ‘dato’ undeclared (first use in this function)
       |         ^~~~
 exercises.c:51:9: note: each undeclared identifier is reported only once for each function it appears in
 a58e6ae
+Sun Mar 22 08:21:06 PM UTC 2026: 
+ exercises.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  1|4
+total_score: 10/70
+f5ad628

@@ -48,7 +48,6 @@ List* crea_lista() {
       *dato = i;
       pushFront(L, dato);
    }
-   free(dato);
    return L;
 }
 
