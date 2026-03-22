@@ -24,3 +24,14 @@ exercises.c:48:13: error: invalid use of void expression
       |             ^
 cc1: all warnings being treated as errors
 196745c
+Sun Mar 22 08:19:23 PM UTC 2026: 
+ exercises.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+Compilation failed
+In file included from test.c:5:
+exercises.c: In function ‘crea_lista’:
+exercises.c:51:9: error: ‘dato’ undeclared (first use in this function)
+   51 |    free(dato);
+      |         ^~~~
+exercises.c:51:9: note: each undeclared identifier is reported only once for each function it appears in
+a58e6ae
