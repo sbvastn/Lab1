@@ -71,3 +71,9 @@ exercises.c:63:13: error: assignment to ‘int’ from ‘int *’ makes integer
    63 |       total += elemento;
       |             ^~
 9e49ba1
+Sun Mar 22 08:44:40 PM UTC 2026: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  3|2
+total_score: 30/70
+7559f90
