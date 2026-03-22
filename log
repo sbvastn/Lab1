@@ -10,3 +10,17 @@ Sun Mar 22 07:41:09 PM UTC 2026:
  tests:  1|4
 total_score: 10/70
 b783957
+Sun Mar 22 08:17:16 PM UTC 2026: 
+ exercises.c | 5 +++++
+ 1 file changed, 5 insertions(+)
+Compilation failed
+In file included from test.c:5:
+exercises.c: In function ‘crea_lista’:
+exercises.c:48:7: error: dereferencing ‘void *’ pointer [-Werror]
+   48 |       *dato = i;
+      |       ^~~~~
+exercises.c:48:13: error: invalid use of void expression
+   48 |       *dato = i;
+      |             ^
+cc1: all warnings being treated as errors
+196745c
